@@ -1,7 +1,29 @@
 <resources>
+
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">#3f51b5</item>
         <item name="colorPrimaryDark">#303F9F</item>
         <item name="colorAccent">#00bcd4</item>
     </style>
+
+    <style name="Headline" >
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="robotoFont">Regular</item>
+    </style>
+
+    <style name="Caption">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="robotoFont">Regular</item>
+    </style>
+
+    <style name="Body1">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="robotoFont">Regular</item>
+    </style>
+
 </resources>

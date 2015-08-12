@@ -24,14 +24,11 @@ import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.transition.TransitionManager;
-import android.util.Log;
 import android.util.SparseBooleanArray;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
-import com.example.android.scrolleventsdemo.R;
 
 public class MainActivity extends Activity {
     static String baconTitle = "Bacon";
@@ -118,7 +115,6 @@ public class MainActivity extends Activity {
                 return 10;
             }
         });
-
     }
 
     private static class ViewHolder extends RecyclerView.ViewHolder {

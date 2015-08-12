@@ -3,4 +3,20 @@
     <color name="green">#c8255f26</color>
     <color name="white">#f2f2f2</color>
     <color name="black">#000000</color>
+
+    <!-- Text colors -->
+    <!-- /black_XX: XX refers to opacity percentage of black -->
+    <color name="text_primary">@color/black_87</color>
+    <color name="text_secondary">@color/black_54</color>
+    <color name="text_hint">@color/black_26</color>
+
+    <!-- Whites, various opacities -->
+    <color name="white_primary">#F9F9F9</color>
+    <color name="white_primary_54">#79F9F9F9</color>
+
+    <!-- Blacks, various opacities -->
+    <color name="black_87">#DD000000</color>
+    <color name="black_54">#79000000</color>
+    <color name="black_26">#3A000000</color>
+    <color name="black_12">#1B000000</color>
 </resources>
